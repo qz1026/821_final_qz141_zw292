@@ -4,14 +4,14 @@ Biostat821 Qianyu Zhu &amp; Alicia Wang
 
 # Biomedical Unit Conversion Library – `biomed-units`
 
-## 💡 Project Overview
+## Project Overview
 
 **Name (example)**: `biomed-units`  
 **Goal**: Provide a Python library (with optional CLI or web interface) to convert between common biomedical units and perform lightweight medical calculations like BMI, body surface area, and eGFR.
 
 ---
 
-## ✅ Core Features (MVP)
+## Core Features (MVP)
 
 ### 1. Unit Conversion Functions
 Each implemented as a clean, well-documented, and testable function.
@@ -31,7 +31,7 @@ Helpful for clinicians and researchers.
 
 ---
 
-## 🧪 Testing Plan
+## Testing Plan
 
 - Use `pytest`
 - 100% coverage for all converters
@@ -40,7 +40,7 @@ Helpful for clinicians and researchers.
 
 ---
 
-## 📦 Code Organization Example
+## Code Organization Example
 
 ```
 biomed_units/
@@ -71,7 +71,7 @@ biomed_units/
 
 ---
 
-## 👥 Task Breakdown for 2–3 Person Team
+## Task Breakdown for 2–3 Person Team
 
 | Member | Task |
 |--------|------|
@@ -82,7 +82,7 @@ biomed_units/
 
 ---
 
-## 🌟 Why It's a Good Final Project
+## Why It's a Good Final Project
 
 - **Scope is flexible** — MVP is small and focused, but easily extensible.
 - **Great for code review** — simple pure functions are ideal for PR feedback.
