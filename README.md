@@ -74,9 +74,9 @@ biomed_units/
 
 | Member | Task |
 |--------|------|
-| Person A | Implement `glucose`, `cholesterol` conversions + write tests |
-| Person B | Implement `BMI`, `BSA` calculators + write tests |
-| All | Review each other’s PRs, write README and usage examples |
+| Alicia | Implement `glucose`, `cholesterol` conversions + write tests |
+| Qianyu | Implement `BMI`, `BSA` calculators + write tests |
+| Both | Review each other’s PRs, write README and usage examples |
 
 
 ---
