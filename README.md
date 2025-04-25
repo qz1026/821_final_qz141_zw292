@@ -6,7 +6,7 @@ Biostat821 — Qianyu Zhu & Alicia Wang
 # Biomedical Unit Conversion Library — `BioMed-Unit`
 
 ## Project Overview
-**Name**: BioMed-Unit  
+**Name**: BioMed-Unit \ 
 **Goal**: Provide a Python library offering comprehensive biomedical, clinical, nutritional, and financial unit conversions, along with lightweight medical calculators.
 
 ---
@@ -64,7 +64,7 @@ Conversion between common biomedical and physical units:
 | Member | Task |
 |--------|------|
 | Alicia Wang | Implement UnitConverter, TimeConverter, and their tests |
-| Qianyu Zhu | |
+| Qianyu Zhu | Calculators for BMI, BSA, EGFR, drug dosage, and tests|
 | Both | Code review, documentation, style consistency, finalize README |
 
 ---
