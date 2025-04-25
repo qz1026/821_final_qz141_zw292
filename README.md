@@ -1,88 +1,79 @@
-# Biostat821_final
-Biostat821 Qianyu Zhu &amp; Alicia Wang
+# Biostat821 Final Project
+Biostat821 — Qianyu Zhu & Alicia Wang
 
+---
 
-# Biomedical Unit Conversion Library
+# Biomedical Unit Conversion Library — `BioMed-Unit`
 
 ## Project Overview
-**Name**: 'BioMed-Unit'
-**Goal**: This project aims to provide a Python library to convert between common biomedical units and perform lightweight medical calculations like BMI, body surface area, and eGFR.
+**Name**: BioMed-Unit  
+**Goal**: Provide a Python library offering comprehensive biomedical, clinical, nutritional, and financial unit conversions, along with lightweight medical calculators.
 
 ---
 
 ## Core Features
 
-### 1. Unit Conversion Functions
-Each implemented as a clean, well-documented, and testable function.
-Examples:
-- **Glucose**: `mg/dL` ↔ `mmol/L`  
-  > `glucose_mgdl_to_mmol(glucose_mgdl: float) -> float`
-- **Cholesterol**: `mg/dL` ↔ `mmol/L`
-- **Creatinine**: `mg/dL` ↔ `µmol/L`
-- **HbA1c**: % ↔ mmol/mol
+### 1. Unit Conversion
+Conversion between common biomedical and physical units:
+- **Concentrations**:  
+  - Glucose: `mg/dL` ↔ `mmol/L`
+  - Cholesterol: `mg/dL` ↔ `mmol/L`
+  - Creatinine: `mg/dL` ↔ `µmol/L`
+- **Weight**: `kg` ↔ `lb`
+- **Volume**: `mL` ↔ `L`
+- **Temperature**: `°C` ↔ `°F`
+- **Length**: `cm` ↔ `inch`
 
-### 2. Biomedical Calculators
-Helpful for clinicians and researchers.
-- **BMI** (Body Mass Index): `calculate_bmi(weight_kg: float, height_cm: float) -> float`
-- **BSA** (Body Surface Area) using DuBois or Mosteller formula
-- **eGFR** calculators (e.g., MDRD or CKD-EPI, simplified for demo)
-- **Unit-normalized drug dose calculator** (e.g., dose per kg or BSA)
+### 2. Time Calculations
+- Birthdate → Age
+- Year ↔ Month ↔ Days conversions
+
+### 3. Clinical Calculators
+- **BMI** (Body Mass Index)
+- **BSA** (Body Surface Area — Mosteller formula)
+- **Dose Calculations** (mg/kg, mg/m²)
+- **Creatinine Clearance** (Cockcroft-Gault formula)
+
+### 4. Nutrition Conversions
+- Calories ↔ Kilojoules
+- Macronutrient (% of carbs, fats, proteins)
+- Daily kcal per meal calculator
+
 
 ---
 
 ## Testing Plan
 
 - Use `pytest`
-- 100% coverage for all converters
-- Include parameterized tests for edge cases (e.g., zero, negatives, round-trip conversion)
-- GitHub Actions + `ruff` lint + coverage badge
+- Full unit test coverage for all converters
+- Check for edge cases and invalid inputs
+- Lint with `ruff`
+- Type checking with `mypy`
+- Optional GitHub Actions CI workflow
 
 ---
 
-## Code Organization Example
+## Code Organization
+821_final_qz141_zw292/ ├── Converters/ │ ├── init.py │ ├── unit_conversion.py │ ├── time_conversion.py │ ├── clinical_conversion.py │ ├── nutrition_conversion.py │ ├── finance_conversion.py │ ├── ConverterTests/ │ ├── init.py │ └── test_converters.py │ ├── .pytest.ini ├── README.md └── requirements.txt
 
-```
-biomed_units/
-│
-├── converters/
-│   ├── glucose.py
-│   ├── cholesterol.py
-│   ├── creatinine.py
-│   └── __init__.py
-│
-├── calculators/
-│   ├── bmi.py
-│   ├── bsa.py
-│   └── egfr.py
-│
-├── cli/
-│   └── main.py  (optional)
-│
-├── tests/
-│   ├── test_glucose.py
-│   ├── test_bmi.py
-│   └── ...
-│
-├── pyproject.toml
-├── README.md
-└── LICENSE
-```
 
 ---
 
-## Task Breakdown for 2–3 Person Team
+## Task Breakdown
 
 | Member | Task |
 |--------|------|
-| Alicia | Implement `glucose`, `cholesterol` conversions + write tests |
-| Qianyu | Implement `BMI`, `BSA` calculators + write tests |
-| Both | Review each other’s PRs, write README and usage examples |
-
+| Alicia Wang | Implement UnitConverter, TimeConverter, and their tests |
+| Qianyu Zhu | |
+| Both | Code review, documentation, style consistency, finalize README |
 
 ---
 
 ## Why It's a Good Final Project
 
-- The scope is flexible — MVP is small and focused, but easily extensible.
-- It has simple functions that are ideal for PR feedback as well as tests.
-- It is useful in real life as clinicians and researchers would actually use these.
+- **Scope is modular and scalable** — clear responsibilities, easy testing.
+- **Emphasis on best practices** — style consistency, testing, documentation, clean project structure.
+- **Real-world application** — healthcare professionals and researchers can directly benefit from unit conversions and calculators.
+- **Well-organized architecture** — easy to expand with new conversions later.
+
+---
