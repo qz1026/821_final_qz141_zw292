@@ -6,7 +6,7 @@ Biostat821 — Qianyu Zhu & Alicia Wang
 # Biomedical Unit Conversion Library — `BioMed-Unit`
 
 ## Project Overview
-**Name**: BioMed-Unit \ 
+**Name**: BioMed-Unit < br / >
 **Goal**: Provide a Python library offering comprehensive biomedical, clinical, nutritional, and financial unit conversions, along with lightweight medical calculators.
 
 ---
@@ -54,7 +54,7 @@ Conversion between common biomedical and physical units:
 ---
 
 ## Code Organization
-821_final_qz141_zw292/ ├── Converters/ │ ├── init.py │ ├── unit_conversion.py │ ├── time_conversion.py │ ├── clinical_conversion.py │ ├── nutrition_conversion.py │ ├── finance_conversion.py │ ├── ConverterTests/ │ ├── init.py │ └── test_converters.py │ ├── .pytest.ini ├── README.md └── requirements.txt
+821_final_qz141_zw292 < br / >├── Converters < br / >│ ├── init.py │ ├── unit_conversion.py │ ├── time_conversion.py │ ├── clinical_conversion.py │ ├── nutrition_conversion.py │ ├── finance_conversion.py │ ├── ConverterTests/ │ ├── init.py │ └── test_converters.py │ ├── .pytest.ini ├── README.md └── requirements.txt
 
 
 ---
