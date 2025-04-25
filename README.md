@@ -54,36 +54,36 @@ Conversion between common biomedical and physical units:
 ---
 
 ## Code Organization
-821_final_qz141_zw292/
-│
-├── Converters/             # Contains all converter modules
-│   ├── __init__.py         
-│   ├── unit_conversion.py               # Unit conversion
-│   ├── time_conversion.py               # Time conversion
-│   ├── clinical_conversion.py           # Clinical conversion
-│   ├── nutritional_conversion.py        # Nutritional conversion
-│   └── finance_conversion.py            # Finance conversion
-│
-├── ConverterTests/         # Unit tests for unit converter modules
-│   ├── __init__.py
-│   ├── test_converters.py
-│
-├── Calculators/             # Contains all calculation modules
-│   ├── __init__.py          # Makes this a Python package
-│   ├── BMI.py               # BMI calculator
-│   ├── BSA.py               # BSA calculator
-│   ├── EGFR.py              # eGFR calculator
-│   └── Dose.py              # Drug dosage calculator
-│
-├── CalculatorTests/         # Unit tests for calculator modules
-│   ├── __init__.py
-│   ├── test_BMI.py
-│   ├── test_BSA.py
-│   ├── test_EGFR.py 
-│   └── test_Dose.py
-│
-├── README.md                # Project overview and instructions
-└── requirements.txt         # Required packages
+821_final_qz141_zw292/ <br />
+│ <br />
+├── Converters/             # Contains all converter modules <br />
+│   ├── __init__.py         <br />
+│   ├── unit_conversion.py               # Unit conversion <br />
+│   ├── time_conversion.py               # Time conversion <br />
+│   ├── clinical_conversion.py           # Clinical conversion <br />
+│   ├── nutritional_conversion.py        # Nutritional conversion <br />
+│   └── finance_conversion.py            # Finance conversion <br />
+│ <br />
+├── ConverterTests/         # Unit tests for unit converter modules <br />
+│   ├── __init__.py <br />
+│   ├── test_converters.py <br />
+│ <br />
+├── Calculators/             # Contains all calculation modules <br />
+│   ├── __init__.py          # Makes this a Python package <br />
+│   ├── BMI.py               # BMI calculator <br />
+│   ├── BSA.py               # BSA calculator <br />
+│   ├── EGFR.py              # eGFR calculator <br />
+│   └── Dose.py              # Drug dosage calculator <br />
+│ <br />
+├── CalculatorTests/         # Unit tests for calculator modules <br />
+│   ├── __init__.py <br />
+│   ├── test_BMI.py <br />
+│   ├── test_BSA.py <br />
+│   ├── test_EGFR.py  <br />
+│   └── test_Dose.py <br />
+│ <br />
+├── README.md                # Project overview and instructions  <br />
+└── requirements.txt         # Required packages  <br />
 
 ---
 
