@@ -54,8 +54,36 @@ Conversion between common biomedical and physical units:
 ---
 
 ## Code Organization
-821_final_qz141_zw292 <br />├── Converters <br />│ ├── init.py │ ├── unit_conversion.py │ ├── time_conversion.py │ ├── clinical_conversion.py │ ├── nutrition_conversion.py │ ├── finance_conversion.py │ ├── ConverterTests/ │ ├── init.py │ └── test_converters.py │ ├── .pytest.ini ├── README.md └── requirements.txt
-
+821_final_qz141_zw292/
+│
+├── Converters/             # Contains all converter modules
+│   ├── __init__.py         
+│   ├── unit_conversion.py               # Unit conversion
+│   ├── time_conversion.py               # Time conversion
+│   ├── clinical_conversion.py           # Clinical conversion
+│   ├── nutritional_conversion.py        # Nutritional conversion
+│   └── finance_conversion.py            # Finance conversion
+│
+├── ConverterTests/         # Unit tests for unit converter modules
+│   ├── __init__.py
+│   ├── test_converters.py
+│
+├── Calculators/             # Contains all calculation modules
+│   ├── __init__.py          # Makes this a Python package
+│   ├── BMI.py               # BMI calculator
+│   ├── BSA.py               # BSA calculator
+│   ├── EGFR.py              # eGFR calculator
+│   └── Dose.py              # Drug dosage calculator
+│
+├── CalculatorTests/         # Unit tests for calculator modules
+│   ├── __init__.py
+│   ├── test_BMI.py
+│   ├── test_BSA.py
+│   ├── test_EGFR.py 
+│   └── test_Dose.py
+│
+├── README.md                # Project overview and instructions
+└── requirements.txt         # Required packages
 
 ---
 
