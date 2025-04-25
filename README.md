@@ -30,9 +30,9 @@ Conversion between common biomedical and physical units:
 
 ### 3. Clinical Calculators
 - **BMI** (Body Mass Index)
-- **BSA** (Body Surface Area — Mosteller formula)
+- **BSA** (Body Surface Area — DuBois & Mosteller formula)
 - **Dose Calculations** (mg/kg, mg/m²)
-- **Creatinine Clearance** (Cockcroft-Gault formula)
+- **EGFR** (MDRD formula)
 
 ### 4. Nutrition Conversions
 - Calories ↔ Kilojoules
